@@ -21,8 +21,8 @@ This project is a full-stack cryptocurrency tracker built using the **MERN stack
 - **Backend**: Node.js, Express.js, Axios, Node-Cron
 - **Database**: MongoDB Atlas
 - **Deployment**:
-  - Frontend: [Vercel](https://vercel.com)
-  - Backend: [Render](https://render.com)
+  - Frontend: [Vercel](https://crypto-tracker-seven-ecru.vercel.app/)
+  - Backend: [Render](https://crypto-tracker-sqpu.onrender.com/)
 
 ---
 
@@ -60,6 +60,7 @@ npm install
 ```env
 MONGO_URI=your_mongodb_atlas_connection_string
 PORT=5000
+COINGECKO_API_KEY=your_coingecko_api_key
 ```
 
 **Start the server**:
@@ -111,8 +112,8 @@ A cron job runs every hour and automatically stores current coin data into Mongo
 
 ## 🌍 Live Demo
 
-* **Frontend (Vercel)**: [https://your-frontend.vercel.app](https://your-frontend.vercel.app)
-* **Backend (Render)**: [https://your-backend.onrender.com](https://your-backend.onrender.com/api/coins)
+* **Frontend (Vercel)**: [https://crypto-tracker-seven-ecru.vercel.app/](https://crypto-tracker-seven-ecru.vercel.app/)
+* **Backend (Render)**: [https://crypto-tracker-sqpu.onrender.com/api/coins](https://crypto-tracker-sqpu.onrender.com/api/coins)
 
 ---
 
